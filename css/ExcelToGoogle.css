@@ -47,42 +47,44 @@ body{
     -moz-box-shadow: inset 10px 10px 24px -3px rgba(0, 0, 0, 0.75);
     box-shadow: inset 10px 10px 24px -3px rgba(0, 0, 0, 0.75);
 }
-
-table {
+.containerTable{
     width: 100%;
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 18px;
-    text-align: left;
-    height: 200px;
+    height: 300px;
     overflow:auto;
 }
-
+table {
+    width: 100%;
+    border-collapse:collapse;
+    font-size: 18px;
+    text-align: center;
+}
 td{
-    padding: 10px;
     color: black;
     background-color: white;
     border: 1px solid black;
     text-align: center;
     font-weight:bolder;
     font-size: 20px;
-    width: 120px;
 }
 .selection{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     margin: 10px;
 }
 .containerSelection{
     margin: 4px;
 }
-h3{
+p{
     color: black;
     text-align: center;
     padding: 10px;
     border-radius: 20px;
     margin: 4px;
+    width: 90px;
     user-select: none;
+    font-size: 90%;
 }
 .fruits{
     border: none;
@@ -96,18 +98,16 @@ h3{
 input[type="button"]{
     background-color: white;
     padding: 20px;
-    font-size: 20px;
+    font-size: 18px;
     border: none;
     outline: none;
-    width: 100px;
+    width: 90px;
+    text-align: center;
     border-radius: 20px;
     cursor: pointer;
     -webkit-box-shadow: 10px 10px 24px -3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 24px -3px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 24px -3px rgba(0, 0, 0, 0.75);
-}
-.contanerExport{
-    margin: 10px;
 }
 input[type="button"]:active{
     -webkit-box-shadow: inset 10px 10px 24px -3px rgba(0, 0, 0, 0.75);

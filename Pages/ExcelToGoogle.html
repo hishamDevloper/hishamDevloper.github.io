@@ -18,32 +18,33 @@
         <input type="file" hidden id="input-excel" accept=".xlsx, .xls">
 
         <!-- Table to Display Excel Content -->
-        <table id="excel-table"></table>
-
+        <div class="containerTable">
+            <table id="excel-table"></table>
+        </div>
         <hr style="width: 400px; border: 1px solid white;margin: 10px;">
 
         <div class="selection">
             <div class="containerSelection">
-                <h3 style="background-color: #FF8D8D; border: 1px solid red;">Name</h3>
-                <select id="Name" class="fruits" name="fruits" size="3">
+                <p style="background-color: #FF8D8D; border: 1px solid red;">Name</p>
+                <select id="Name" class="fruits" name="fruits">
                 </select>
             </div>
 
             <div class="containerSelection">
-                <h3 style="background-color: #BDFCA9;border: 1px solid green;">Latitude (27)</h3>
-                <select id="Latitude" class="fruits" name="fruits" size="3">
+                <p style="background-color: #BDFCA9;border: 1px solid green;">Latitude (27)</p>
+                <select id="Latitude" class="fruits" name="fruits">
                 </select>
             </div>
 
             <div class="containerSelection">
-                <h3 style="background-color: #81BCFF;border: 1px solid blue;">Longitude (30)</h3>
-                <select id="Longitude" class="fruits" name="fruits" size="3">
+                <p style="background-color: #81BCFF;border: 1px solid blue;">Longitude (30)</p>
+                <select id="Longitude" class="fruits" name="fruits">
 
                 </select>
             </div>
         </div>
 
-        <div class="contanerExport">
+        <div>
             <input style="background-color: skyblue;" type="button" id="ButtonRefresh" value="Refresh">
             <input type="button" disabled id="ButtonKML" value="KML">
             <input type="button" disabled id="ButtonKMZ" value="KMZ">
