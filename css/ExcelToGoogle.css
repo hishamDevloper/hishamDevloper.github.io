@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #333;
+    width: 96%;
+    height: 96%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 8px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.imageHeader{
+    width: 250px;
+    margin-bottom: 10px;
+    user-select: none;
+}
+.inputExcel{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    user-select: none;
+    -webkit-box-shadow: 10px 10px 24px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 24px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 24px -3px rgba(0, 0, 0, 0.75);
+}
+.inputExcel:active{
+    -webkit-box-shadow: inset 10px 10px 24px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 10px 10px 24px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 10px 10px 24px -3px rgba(0, 0, 0, 0.75);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+    height: 200px;
+    overflow:auto;
+}
+
+td{
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 20px;
+    width: 120px;
+}
+.selection{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.containerSelection{
+    margin: 4px;
+}
+h3{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 4px;
+    user-select: none;
+}
+.fruits{
+    border: none;
+    padding: 10px;
+    width: 100%;
+    direction: rtl;
+    scroll-behavior: smooth;
+    background-color: #555;
+    color: white;
+}
+input[type="button"]{
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    width: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 24px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 24px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 24px -3px rgba(0, 0, 0, 0.75);
+}
+.contanerExport{
+    margin: 10px;
+}
+input[type="button"]:active{
+    -webkit-box-shadow: inset 10px 10px 24px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 10px 10px 24px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 10px 10px 24px -3px rgba(0, 0, 0, 0.75);
+}
+Option{
+    font-size: 20px;
+}

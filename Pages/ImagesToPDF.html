@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/ImagesToPDF.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"></script>
+    <title>PDF</title>
+</head>
+
+<body>
+    <div class="container">
+        <label class="uploadImages" for="uploadImages">Select Images</label>
+        <input multiple type="file" accept=".png, .jpg, .jpeg" hidden name="" id="uploadImages">
+        <div class="ViewerImages" id="ViewerImages">
+        </div>
+        <input type="button" value="Convert To PDF" id="ConvertToPDF">
+    </div>
+    <script src="/js/ImagesToPDF.js"></script>
+</body>
+
+</html>

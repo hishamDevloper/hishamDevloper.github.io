@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>تحويل الدرجات الي علامات عشرية</title>
+    <link rel="stylesheet" href="/css/ConvertDegreesToDecimalPoints.css">
+</head>
+<body>
+    <div class="contaner">
+        <label class="lab">Convert Degrees To Decimal Points</label>
+        <form>
+            <div id="degcontent27">
+                <input type="number" class="sizes sizesright" placeholder="27°" id="deg27">
+                <input type="number" class="sizes" placeholder="00'" id="mint27">
+                <input type="number" class="sizes sizesleft" placeholder="00''" id="sec27">
+            </div>
+            <div id="degcontent30">
+                <input type="number" class="sizes sizesright" placeholder="30°" id="deg30">
+                <input type="number" class="sizes" placeholder="00'" id="mint30">
+                <input type="number" class="sizes sizesleft" placeholder="00''" id="sec30">
+            </div>
+            <div id="buttones">
+                <input type="button" id="clearAll" value="Clear">
+                <input type="reset" id="convertTo" value="Convert">
+            </div>
+        </form>
+        <div id="contanerconvert">
+            <input type="text" class="sizes sizesright" placeholder="27.0000" id="degcon27">
+            <input type="text" class="sizes sizesleft" placeholder="30.0000" id="mintcon30">
+        </div>
+        <input style="margin-top: 20px; border-radius: 20px;" type="button" id="CopyAll" value="Copy">
+    </div>
+    <script src="/js/ConvertDegreesToDecimalPoints.js"></script>
+</body>
+</html>
